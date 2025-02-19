@@ -19,7 +19,13 @@ This project provides a Bash script that automates the installation and secure c
 Clone the repository and run the installer script:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/AaronClaude/mariadb-termux-installation.git
+cd mariadb-termux-installation
 chmod +x install-mariadb.sh
 ./install-mariadb.sh
+```
+
+## Notes
+
+- The script will install MariaDB and configure it with a secure password.
+- The root password is set to `admin`.
