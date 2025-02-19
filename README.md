@@ -19,6 +19,7 @@ This project provides a Bash script that automates the installation and secure c
 Clone the repository and run the installer script:
 
 ```bash
+pkg install git -y
 git clone https://github.com/AaronClaude/mariadb-termux-installation.git
 cd mariadb-termux-installation
 chmod +x install-mariadb.sh
@@ -29,3 +30,11 @@ chmod +x install-mariadb.sh
 
 - The script will install MariaDB and configure it with a secure password.
 - The root password is set to `admin`.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a PR.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

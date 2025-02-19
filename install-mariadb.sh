@@ -36,7 +36,7 @@ fi
 echo "Securing the MariaDB installation..."
 expect <<EOF
 spawn mariadb-secure-installation
-expect "Enter current password for root*" {send "n\r"}
+expect "Enter current password for root*" {send "\r"}
 expect "Set root password*" {send "y\r"}
 expect "New password*" {send "admin\r"}
 expect "Re-enter new password*" {send "admin\r"}
